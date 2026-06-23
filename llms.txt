@@ -1,0 +1,32 @@
+# KRONO
+
+> Plataforma de automações para transportadoras rodoviárias de carga. Automatiza a cotação, o cálculo de DRE, a precificação e o risco do frete e devolve a proposta no preço certo em segundos. Operada pela Astroads AI LTDA (São Paulo/Brasil).
+
+## O que é
+- A KRONO é o software que automatiza a cotação e a precificação de frete da transportadora: a cotação entra, o DRE e o risco saem calculados e a proposta vai pronta para o cliente.
+- Nasceu dentro da WPC Logistics, uma transportadora rodoviária real.
+- Não substitui o TMS. Entra na camada comercial, antes da emissão do CTE, e conversa com o sistema que a transportadora já usa (ex.: ESL).
+
+## Para quem
+- Transportadoras rodoviárias de carga no Brasil (diretores comerciais e times de cotação).
+
+## Capacidades
+- Cotação automática de frete (origem, destino, carga, cliente)
+- Cálculo de DRE, custo de rota e margem antes de dar o preço
+- Risco e seguro do frete: GRIS, ad valorem, RCTR-C, averbação
+- Geração de proposta precificada e follow-up automático
+- Primeiro atendimento com IA
+- Integração com TMS (ex.: ESL) e ERP (ex.: SAP Business One)
+
+## Prova
+- Construída dentro da WPC Logistics. Depoimento de Higor Vilela, CEO da WPC Logistics.
+- Parceiros e stack: OpenAI, Anthropic, Microsoft, Google Cloud, Stripe, ESL, SAP Business One, FGV, Insper, DRC.
+
+## Oferta
+- Diagnóstico gratuito do fluxo comercial, sem compromisso.
+- Modelo comercial: projeto de implantação mais recorrência, definido no diagnóstico.
+- Contato pelo WhatsApp, a partir do site.
+
+## Empresa
+- Site: https://krono.com.br/
+- Razão social: Astroads AI LTDA · CNPJ 63.324.757/0001-50 · São Paulo/SP, Brasil
