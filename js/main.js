@@ -244,7 +244,7 @@
       else if (g === 'o follow-up parado') msg = 'O follow-up corre sozinho. Proposta não esfria mais na caixa de entrada.';
       else if (g === 'tudo na mão, no Excel') msg = 'A conta sai do Excel e vira proposta em segundos.';
       else msg = 'Boa. Já dá pra ver onde recuperar tempo e margem.';
-      a.innerHTML = '<svg width="15" viewBox="0 0 24 24" fill="none" stroke="#E1AA4D" stroke-width="2.5" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>' + msg + '</span>';
+      a.innerHTML = '<svg width="15" viewBox="0 0 24 24" fill="none" stroke="#E1AA4D" stroke-width="2.4" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>' + msg + '</span>';
     }
     var send = document.getElementById('quizSend');
     var qNome = document.getElementById('qNome'), qEmpresa = document.getElementById('qEmpresa');
@@ -333,12 +333,13 @@
     var bubbles = [].slice.call(chat.querySelectorAll('.bubble'));
     var typing = chat.querySelector('.typing');
     if (reduce || !bubbles.length) { bubbles.forEach(function (b) { b.classList.add('show'); }); return; }
+    bubbles[0].classList.add('show');
     chat.classList.add('seq');
     var ran = false;
     new IntersectionObserver(function (es, obs) {
       if (!es[0].isIntersecting || ran) return; ran = true; obs.disconnect();
       var steps = [
-        function () { bubbles[0].classList.add('show'); after(850); },
+        function () { after(850); },
         function () { if (typing) typing.classList.add('on'); after(1200); },
         function () { if (typing) typing.classList.remove('on'); if (bubbles[1]) bubbles[1].classList.add('show'); after(1000); },
         function () { if (typing) typing.classList.add('on'); after(1200); },
