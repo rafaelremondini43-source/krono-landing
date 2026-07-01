@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Krono">
+  <circle cx="256" cy="256" r="232" fill="#06090F"/>
+  <circle cx="256" cy="256" r="164" fill="#ECE5D4"/>
+  <rect x="322" y="84" width="48" height="150" rx="10" fill="#C8923F" transform="rotate(38 346 159)"/>
+  <circle cx="256" cy="256" r="92" fill="#06090F"/>
+</svg>
